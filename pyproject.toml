@@ -1,0 +1,14 @@
+[project]
+name = "analysiscoin-mcpserver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.11.11",
+    "mcp[cli]>=1.2.0",
+    "pre-commit>=4.0.1",
+    "solana>=0.36.2",
+    "solders>=0.23.0",
+    "uvicorn>=0.34.0",
+]
